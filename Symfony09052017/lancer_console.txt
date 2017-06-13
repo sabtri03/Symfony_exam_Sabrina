@@ -1,0 +1,14 @@
+se placer dans le repertoire symfony cree
+=> dans les commande:
+php bin\console s:r
+	ou 
+php bin/console server:run
+
+
+
+Pour savaoir les commande 
+/.
+
+Pour voire les methode des pages dans le routeur
+
+php bin\console debug:router

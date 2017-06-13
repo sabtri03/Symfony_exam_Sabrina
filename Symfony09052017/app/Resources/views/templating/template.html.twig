@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="vieuwport"  />
+        <title>Tect templating</title>
+        <link http-equiv="X_UA_Compatible" content="ie=edge" />
+    </head>
+    <body>
+        <h1>Hello Users</h1>
+        <ul>
+            {% for u in users%}
+                <li>{{ u.id }} - {{ u.name }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

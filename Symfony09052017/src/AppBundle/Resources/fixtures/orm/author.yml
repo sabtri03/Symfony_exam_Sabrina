@@ -1,0 +1,5 @@
+AppBundle\Entity\Author:
+    author_{1..15}:
+        name: <name()> 
+        firstname: <firstname()>
+        dateBirth: <dateTimeBetween('-70 years','-10 years')>
