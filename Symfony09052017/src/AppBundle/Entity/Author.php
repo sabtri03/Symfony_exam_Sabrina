@@ -50,11 +50,11 @@ class Author
     private $bio;
     
     
-    ///**
-    // * @var Image
-    // * @ORM\OneToOne(targetEntity="AppBundle\Entity\Image", cascade={"persist"})
-    // */
-    //private $image;
+    /**
+     * @var string
+     * @ORM\OneToOne(targetEntity="AppBundle\Entity\Image")
+     */
+    private $image;
     
     /**
      * @var ArryCollection

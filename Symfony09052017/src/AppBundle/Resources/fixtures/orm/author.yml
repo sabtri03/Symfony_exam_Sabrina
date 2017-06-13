@@ -3,3 +3,4 @@ AppBundle\Entity\Author:
         name: <name()> 
         firstname: <firstname()>
         dateBirth: <dateTimeBetween('-70 years','-10 years')>
+        bio: <paragraph(5,true)>

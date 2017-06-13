@@ -48,11 +48,11 @@ class Article
      */
     private $author;
     
-    ///**
-    // * @var ArrayCollection
-    // * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Category") 
-    // */
-   // private $categories;
+    /**
+     * @var ArrayCollection
+     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Category") 
+     */
+    private $categories;
     
     /**
      * Get id

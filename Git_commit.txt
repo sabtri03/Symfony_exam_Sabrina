@@ -1,0 +1,10 @@
+git config --global user.name "mazenovi"
+
+git config --global user.email vmazenod@mail.com
+
+
+
+git init
+git add <filename>
+git commit -m 'first commit'
+git push -f git@github.com:sabtri03/<NomDuRepo>
