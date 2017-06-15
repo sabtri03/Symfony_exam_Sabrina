@@ -1,5 +1,0 @@
-AppBundle\Entity\Article:
-    article_{1..15}:
-        title: <word()> 
-        content: <sentences()>
-        publicationDate: <dateTimeBetween('-140 years','-10 years')>

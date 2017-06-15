@@ -1,0 +1,4 @@
+AppBundle\Entity\User:
+    user_{1..15}:
+        username: <username()> 
+        profilePicture: <firstname()>

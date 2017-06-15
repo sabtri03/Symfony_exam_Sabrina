@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ parent()}} 
+{% endblock %}
+{% block body %}
+    {{ dump(event) }}
+    <h1>{{ event.nom }}</h1>
+    <img src="{{event.image}}" width="200" alt="{{event.nom}}">
+    <p>{{ event.description }}</p>
+    <p>{{ event.debut }}</p>
+    <p>{{ event.fin }}</p>
+    <p>{{ event.categories }}</p>
+   <ul>
+        {% for e in event %}
+            <li>
+                 <br/>
+                [{{ e.user }}]
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

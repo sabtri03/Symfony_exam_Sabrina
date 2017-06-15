@@ -1,0 +1,4 @@
+AppBundle\Entity\Categories:
+    categories_{1..15}:
+        nom: <word()> 
+        description: <paragraph(1,true)>

@@ -1,4 +1,0 @@
-AppBundle\Entity\Image:
-    image_{1..15}:
-        title: <word()> 
-        url: <imageUrl(200,200,'cats')>
